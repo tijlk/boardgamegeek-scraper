@@ -1,0 +1,2091 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9100.15.1106.2334                                -->
+<workbook source-platform='win' version='9.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='games (CDropboxBoardgamegeekboardgamegeekdataprocessedbgg.db)' inline='true' name='genericodbc.42951.978534837966' version='9.1'>
+      <connection class='genericodbc' dbname='C:\Dropbox\Boardgamegeek\boardgamegeek\data\processed\bgg.db' odbc-connect-string-extras='StepAPI=0;SyncPragma=NORMAL;NoTXN=0;Timeout=100000;ShortNames=0;LongNames=0;NoCreat=0;NoWCHAR=0;FKSupport=0;JournalMode=;OEMCP=0;LoadExt=;BigInt=0;JDConv=0' odbc-dbms-name='SQLite' odbc-driver='SQLite3 ODBC Driver' odbc-dsn='SQLite3 Datasource' odbc-suppress-connection-pooling='' odbc-use-connection-pooling='' port='' server='' username=''>
+        <relation name='games' table='[games]' type='table' />
+        <connection-customization class='genericodbc' enabled='false' version='9.1'>
+          <vendor name='SQLite' />
+          <driver name='SQLite3 ODBC Driver' />
+          <customizations>
+            <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+            <customization name='CAP_ISOLATION_LEVEL_READ_COMMITTED' value='no' />
+            <customization name='CAP_ISOLATION_LEVEL_READ_UNCOMMITTED' value='no' />
+            <customization name='CAP_ISOLATION_LEVEL_REPEATABLE_READS' value='no' />
+            <customization name='CAP_ISOLATION_LEVEL_SERIALIZABLE' value='no' />
+            <customization name='CAP_ODBC_BIND_DETECT_ALIAS_CASE_FOLDING' value='no' />
+            <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+            <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+            <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+            <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+            <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+            <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+            <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+            <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+            <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+            <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+            <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='no' />
+            <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+            <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+            <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+            <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+            <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+            <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+            <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+            <customization name='CAP_ODBC_METADATA_SUPPRESS_EXECUTED_QUERY' value='no' />
+            <customization name='CAP_ODBC_METADATA_SUPPRESS_PREPARED_QUERY' value='no' />
+            <customization name='CAP_ODBC_METADATA_SUPPRESS_SELECT_STAR' value='no' />
+            <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+            <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='no' />
+            <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='no' />
+            <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+            <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+            <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+            <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+            <customization name='CAP_ODBC_UNBIND_EACH' value='no' />
+            <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='yes' />
+            <customization name='CAP_QUERY_FROM_REQUIRES_ALIAS' value='no' />
+            <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+            <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='yes' />
+            <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='yes' />
+            <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+            <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='no' />
+            <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+            <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='no' />
+            <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='yes' />
+            <customization name='CAP_QUERY_SORT_BY_DEGREE' value='yes' />
+            <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+            <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+            <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='no' />
+            <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='yes' />
+            <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+            <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+            <customization name='CAP_QUERY_TOP_0_METADATA' value='no' />
+            <customization name='CAP_QUERY_TOP_N' value='yes' />
+            <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+            <customization name='CAP_SELECT_INTO' value='no' />
+            <customization name='CAP_SELECT_TOP_INTO' value='yes' />
+            <customization name='CAP_SET_ISOLATION_LEVEL_VIA_ODBC_API' value='no' />
+            <customization name='CAP_SET_ISOLATION_LEVEL_VIA_SQL' value='no' />
+            <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='no' />
+            <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+            <customization name='SQL_CATALOG_NAME_SEPARATOR' value='.' />
+            <customization name='SQL_CATALOG_TERM' value='' />
+            <customization name='SQL_CATALOG_USAGE' value='0' />
+            <customization name='SQL_COLUMN_ALIAS' value='Y' />
+            <customization name='SQL_CONVERT_FUNCTIONS' value='0' />
+            <customization name='SQL_DBMS_NAME' value='SQLite' />
+            <customization name='SQL_DBMS_VER' value='3.15.2' />
+            <customization name='SQL_DRIVER_ODBC_VER' value='03.00' />
+            <customization name='SQL_DRIVER_VER' value='0.9995' />
+            <customization name='SQL_IDENTIFIER_QUOTE_CHAR' value='&quot;' />
+            <customization name='SQL_MAX_IDENTIFIER_LEN' value='255' />
+            <customization name='SQL_NUMERIC_FUNCTIONS' value='0' />
+            <customization name='SQL_ODBC_INTERFACE_CONFORMANCE' value='1' />
+            <customization name='SQL_ODBC_VER' value='03.80.0000' />
+            <customization name='SQL_OJ_CAPABILITIES' value='0' />
+            <customization name='SQL_QUOTED_IDENTIFIER_CASE' value='3' />
+            <customization name='SQL_SCHEMA_TERM' value='' />
+            <customization name='SQL_SCHEMA_USAGE' value='0' />
+            <customization name='SQL_SPECIAL_CHARACTERS' value='' />
+            <customization name='SQL_SQL_CONFORMANCE' value='1' />
+            <customization name='SQL_STRING_FUNCTIONS' value='0' />
+            <customization name='SQL_SYSTEM_FUNCTIONS' value='0' />
+            <customization name='SQL_TABLE_TERM' value='TABLE' />
+            <customization name='SQL_TIMEDATE_ADD_INTERVALS' value='0' />
+            <customization name='SQL_TIMEDATE_DIFF_INTERVALS' value='0' />
+            <customization name='SQL_TIMEDATE_FUNCTIONS' value='0' />
+            <customization name='__23' value='2' />
+            <customization name='__46' value='2' />
+          </customizations>
+        </connection-customization>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>2</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gameid</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[gameid]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>gameid</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>2</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>2</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bggrating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bggrating]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>bggrating</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avgrating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avgrating]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>avgrating</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>votes</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[votes]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>votes</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>2</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>publisher</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[publisher]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>publisher</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>random</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[random]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>random</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>minage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[minage]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>minage</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>minplayers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[minplayers]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>minplayers</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>maxplayers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[maxplayers]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>maxplayers</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>minplaytime</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[minplaytime]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>minplaytime</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>maxplaytime</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[maxplaytime]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>maxplaytime</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subdomain</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[subdomain]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>subdomain</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[weight]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>weight</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weight_votes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weight_votes]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>weight_votes</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>suggested_age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[suggested_age]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>suggested_age</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nplayers_best_min</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nplayers_best_min]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>nplayers_best_min</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nplayers_best_max</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nplayers_best_max]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>nplayers_best_max</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nplayers_recom_min</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nplayers_recom_min]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>nplayers_recom_min</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nplayers_recom_max</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nplayers_recom_max]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>nplayers_recom_max</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nplayers_votes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nplayers_votes]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>nplayers_votes</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>usersrated</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[usersrated]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>usersrated</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>average</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[average]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>average</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>baverage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[baverage]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>baverage</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stddev</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[stddev]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>stddev</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avgweight</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[avgweight]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>avgweight</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numweights</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numweights]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numweights</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numgeeklists</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numgeeklists]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numgeeklists</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numtrading</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numtrading]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numtrading</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numwanting</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numwanting]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numwanting</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numwish</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numwish]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numwish</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numowned</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numowned]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numowned</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numprevowned</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numprevowned]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numprevowned</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numcomments</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numcomments]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numcomments</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numwishlistcomments</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numwishlistcomments]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numwishlistcomments</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numhasparts</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numhasparts]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numhasparts</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numwantparts</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numwantparts]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numwantparts</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>views</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[views]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>views</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>playmonth</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[playmonth]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>playmonth</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numplays</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numplays]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numplays</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numplays_month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[numplays_month]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numplays_month</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>65536</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numfans</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[numfans]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>numfans</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-medical</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-medical]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-medical</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-action point allowance system</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-action point allowance system]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-action point allowance system</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-co-operative play</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-co-operative play]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-co-operative play</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-hand management</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-hand management]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-hand management</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-point to point movement</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-point to point movement]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-point to point movement</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-set collection</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-set collection]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-set collection</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-trading</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-trading]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-trading</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-variable player powers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-variable player powers]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-variable player powers</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>updated</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[updated]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>updated</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-animals</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-animals]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-animals</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-economic</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-economic]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-economic</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-farming</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-farming]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-farming</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-card drafting</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-card drafting]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-card drafting</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-worker placement</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-worker placement]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-worker placement</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-city building</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-city building]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-city building</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-industry / manufacturing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-industry / manufacturing]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-industry / manufacturing</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-nautical</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-nautical]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-nautical</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-civilization</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-civilization]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-civilization</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-fantasy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-fantasy]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-fantasy</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-territory building</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-territory building]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-territory building</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-route/network building</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-route/network building]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-route/network building</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-variable phase order</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-variable phase order]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-variable phase order</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-adventure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-adventure]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-adventure</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-exploration</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-exploration]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-exploration</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-fighting</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-fighting]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-fighting</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-novel-based</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-novel-based]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-novel-based</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-action / movement programming</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-action / movement programming]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-action / movement programming</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-dice rolling</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-dice rolling]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-dice rolling</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-modular board</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-modular board]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-modular board</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-simultaneous action selection</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-simultaneous action selection]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-simultaneous action selection</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-storytelling</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-storytelling]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-storytelling</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-tile placement</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-tile placement]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-tile placement</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-trains</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-trains]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-trains</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-environmental</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-environmental]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-environmental</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-dice</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-dice]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-dice</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-medieval</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-medieval]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-medieval</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-travel</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-travel]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-travel</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-puzzle</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-puzzle]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-puzzle</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-area enclosure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-area enclosure]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-area enclosure</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-pattern building</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-pattern building]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-pattern building</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-press your luck</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-press your luck]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-press your luck</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-area control / area influence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-area control / area influence]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-area control / area influence</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-renaissance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-renaissance]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-renaissance</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-auction/bidding</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-auction/bidding]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-auction/bidding</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-prehistoric</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-prehistoric]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-prehistoric</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-religious</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-religious]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-religious</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-humor</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-humor]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-humor</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-arabian</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-arabian]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-arabian</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-card game</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-card game]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-card game</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-deduction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-deduction]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-deduction</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-murder/mystery</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-murder/mystery]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-murder/mystery</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-party game</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-party game]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-party game</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-pattern recognition</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-pattern recognition]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-pattern recognition</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-science fiction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-science fiction]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-science fiction</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-hex-and-counter</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-hex-and-counter]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-hex-and-counter</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-player elimination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-player elimination]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-player elimination</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-pirates</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-pirates]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-pirates</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-transportation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-transportation]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-transportation</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-area movement</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-area movement]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-area movement</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-pick-up and deliver</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-pick-up and deliver]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-pick-up and deliver</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-political</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-political]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-political</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-campaign / battle card driven</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-campaign / battle card driven]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-campaign / battle card driven</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cat-ancient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cat-ancient]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>cat-ancient</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mech-grid movement</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mech-grid movement]</local-name>
+            <parent-name>[games]</parent-name>
+            <remote-alias>mech-grid movement</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Avgrating' datatype='real' name='[avgrating]' role='measure' type='quantitative' />
+      <column caption='Bggrating' datatype='real' name='[bggrating]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Gameid' datatype='integer' name='[gameid]' role='dimension' type='ordinal' />
+      <column caption='Publisher' datatype='string' name='[publisher]' role='dimension' type='nominal' />
+      <column caption='Random' datatype='real' name='[random]' role='measure' type='quantitative' />
+      <column caption='Rank' datatype='integer' name='[rank]' role='measure' type='quantitative' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Votes' datatype='integer' name='[votes]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Netherlands&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='games (CDropboxBoardgamegeekboardgamegeekdataprocessedbgg.db)' name='genericodbc.42951.978534837966' />
+          </datasources>
+          <datasource-dependencies datasource='genericodbc.42951.978534837966'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[publisher]' derivation='None' name='[none:publisher:nk]' pivot='key' type='nominal' />
+            <column caption='Publisher' datatype='string' name='[publisher]' role='dimension' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[updated]' derivation='Day-Trunc' name='[tdy:updated:ok]' pivot='key' type='ordinal' />
+            <column datatype='datetime' name='[updated]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[genericodbc.42951.978534837966].[none:publisher:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[genericodbc.42951.978534837966].[sum:Number of Records:qk]</rows>
+        <cols>[genericodbc.42951.978534837966].[tdy:updated:ok]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='1' param='[genericodbc.42951.978534837966].[none:publisher:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[genericodbc.42951.978534837966].[none:numplays:nk]</field>
+          <field>[genericodbc.42951.978534837966].[none:publisher:nk]</field>
+          <field>[genericodbc.42951.978534837966].[yr:updated:ok]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='173'>
+      iVBORw0KGgoAAAANSUhEUgAAAK0AAADACAYAAAB2xePHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAO8klEQVR4nO3df1DU9b7H8WctA0JdV6QURQZtNFOS/EVB/sirHmpwOl7KKCzvWGqdnKTC
+      KG4/xrQfciJROaU22sgdLE7bD/pxZI5MZj/QOHIjw1C8MhkhP9QWQ4oVLt+6f+yqm2iKFrsf
+      eT1mnMlddr/fzadfP3z3u7wv+uWXX35BxCAX+3oHRDpL0YpxFK0YR9GKcRStGEfRinEUrRhH
+      0YpxFK0YR9GKcRStGEfRinECfL0DpqgtSOfh/GqvWwII6TeUm2Y/xG2j7Ni6akeay8l9OovC
+      mlai577CooTQ33kDtRSkP0xNsoPU2DN/dVtTE5bdTnBnt1KQzsM1yTjOZiMnUbSdEZXC8qwk
+      IgBoo3Hnm7yw9BEaH8lh/ujO/rGdm8OfF1B48XSW5c8gssv+ppxmX7Y8T2rhMDKP/z/pGloe
+      nLNAeo+4k/S7wvm4YAvOLtpqy08/QmSUz4MFaPnhMK0+2K6OtOcpLH4C0bllVLgSmRjczJ6C
+      1ax6bwf1Le0Q1JMhU1LJmD2Er7JS2XXjGu6N8dRWW0D6miAynkkk7KTntJq+JO+Fl9m89wit
+      QX0Ye8sC7k8aypHjS5QskovHk+5Ixfsf19KcZByRy8lKioDSHJIdke5/GUpzSHbYmR1dTn5h
+      DVbIIBIefJxZnmVNc3kuz2YXsa/FRmRiCjFez9m8p4DVq95jR30L7QTRc8gUUjNmE1OZ49mX
+      ah5Oh+VZSVz+bSErljvYUd8CJ22D5nJyn82maF8LtshEUrw30kk60p6v0FBCceJsBKs8n8zC
+      HqSszMPh2MCaeVdTV/g6WxqCGRN/JaUlFVieh9Vu30aP+Os6BAv7eOvJLCqHp/FSvoMNK1Po
+      UbiY7CInEUlZLE+JgvHpOE4K9oyqN7Llojm8lJ/P6keHU7H0Wd6vBZxFZGdWMPzR1eQ7XmXB
+      pZ+y6djS3SonP7OQHikryXM42LBmHlfXFfL6lgaITXXvy7Elk6uYlY8XcNH0THIdDnKfjqUy
+      60ne2gfgpCg7k4rhj7I638GrCy7l003Vp9/XM1C0vyNbzL2sX5tKnN0GBNJ7XBzXYGFZEDwm
+      nitLS6iwAGrZvq0H8dd1TJaqbXzijOPWO4Zjt0Fg73HMmxVDxUdbaTivvbueW+8ajt1mwz48
+      mZtHV/OvLxpo2PoRFTE3kzzcjo1ABs6YxZRLjr8g7l2/ltQ499EysPc44q4By7I6PLurtJjS
+      8Bu5Y3I4gUDgwBnMnWbxybYqaNjKRxUx3JzseU0DZzDr+EY6T8uD89VQTx1hjOwN0Ebj3mKK
+      PtxDw8Eq9tYc5BDhRAEExzNpxCt8XDaHmP7b2dYjnoxTNMthJ99HRNLfa80aHBwClkXHVDoh
+      ynsdHIz7KS0sLAgJ9vruvxe9L4OfPL9ra9xLcdGH7Gk4SNXeGg4egvCojk/f6HTC/jIWJjt+
+      fcf4w559DyHY63vVXt4b6SRFe56cZaV8Ez2BEcHgLFrKgjcvZvrMqUxNvJ27w3az/p53PV9p
+      Y3R8LDmfl1ETuY0e8RmnWBoAoWFcVltDnQURnshcrhaw2bDBGcP9qcUFgGX9/Os7qqupOf6c
+      LtxPacOGDVpcuMATrouWYzE5i1i64E0unj6TqVMTuf3uMHavv4d36Sjkkkshei6vLEqgw0m4
+      hnpstOA6sRFcLedYLFoenDvrKId2vkbWhgZunDGFUKC6ag9B0ZO5aWI8w/q28MXqXLbxE56O
+      sI2exISdb/Py6ZYGAIOv54awEt7++y6aLGhr3MravHKuuH4M4WfYpf6RUXy/4wuso1UUvLv9
+      pHu3827Bt7Rh0bTLwQfl0UweF074uMlEl+extqQJizYait7iw+89D6muYk9QNJNvmkj8sL60
+      fLGa3G0n/mKEXHIpWBY/A6Hx/87oPW+y7qMG2gCraRevZcxicZETwscxObqcvLUl7tfUUMRb
+      xzfSeTrSdkZ1Pg8n53t+E0TPyBFMW5RN0lD3IfGam2cz7K9rmJeykoCQQdzwl7lM/24ZNXUu
+      GBwMtmjiYg/wYX0Kj52mWRjEjKdS+WFlNg+kHDt7sIgn/nzmM6ERU+dy61dLmf1INbMmXQv/
+      8rpzwARG1L3InOSD0GcstyxKIyEMIIG0RYdZtvR+UrLdZw8mRZXR5H5BzB72V9bMS2FlQAiD
+      bvgLc6d/x7KaOlwMJjR6LFfm/TcL725i0fo5pD3/IyuWZzB7TQvtQX2InpZOmnsjJKQt4vCy
+      pdyfku0+ezApirKmc/pT4CJ9hLxrOQuf4qWAtD/gnazf4H36q+u2+ofR8qArWTVs2QKxY7ow
+      2AuQou0qtQWkpzzOjgn3cuNplwZyNrQ8EOPoSCvG6RZnDyorK329C/I76hbRAlx11VW+3gX5
+      nWh5IMZRtGIcny0PmstzyczZzN4jrQT1GcusxxaS0OHKZouq1x7iced/nvhYRnM5uZk57mtN
+      A0LoN3I68+9PYui/dflLEB/xzZH28GZWZFYQk7GWfMcGViYHkr8kj90nf13tRtZtPPCrm/YV
+      rmVrr5lkbXDgyH2aCY1vsn7L+V20J2bxTbShU3jq9SxuH9wDG4H0jovl6qZK9v6qvWY+zSsk
+      eOgAr9sa2Pmlk1FTJhPuvmiTaYkxfLPrf3F17SsQH/L9mtY6StX7H7DjiusZ43UZk6ssj3dC
+      5nBnjPeSoYZvv4mgX98TtwQHh8DBg5z7NUNiGt9Ga5Ww6r4HWOxwMjIx7sSld1YV7+QdIvHO
+      2DN/NLl/JFH7687zqn4xiW/P09rimL8ujvuatvK3h57glUvdH8V2bn6NnePu4bkwOh2j3ki4
+      8PnFmws2+zj+NH4dz5XsZv6QH1n7zgBmvRx5dj8Ao66G6gH9jx+lT/UmgkK+sPhFtMf0sveE
+      ymLKGospS9nkdU8WyTUpLM+KZ+AVtew/AMcuDHW5WqBPHy7zxQ6LT/gm2n1vsOCJfSStTmey
+      3YbVVMLm0r7c9NRgiEjF4Ug9/qUn//ictlFhFBQV0XB1Apf/XMXGwnKGTpzX6R/LI+byTbSD
+      ZvBU6jpWLpzNmiOtBPWJZtr8JziLT5QwaOosrnthFWl3raOdIPqMnc1jukC1W+kW19NWVlbq
+      gpkLiO/P04p0kqIV4yhaMY6iFeMoWjGOohXjKFoxjqIV4yhaMY6iFeMoWjGOohXjKFoxjqIV
+      4yhaMY6iFeMoWjGOohXjKFoxjqIV4yhaMY6iFeMoWjGOohXj+NXP8vKVgRkbfb0LnfZt5jRf
+      74LP6EgrxlG0YhxFK8ZRtGIcRSvGUbRiHEUrxlG0YhxFK8ZRtGIcP5xCbnGwZB0r1xWz90gr
+      ASH9GDnzERYmeOaKaQp5t+d/U8idm/hbdpXnPge5T0+gMXcJeZ4R5ZpCLv43hTwskWccx+6D
+      wIFJ/Me1TVRU1qIp5AL+sKY9zRTyE9poOwo2mw1NIRfw9aWJVgmr7lvH50cuYuQDXlPIvTk/
+      Y0tFNJPnhQM1He/vH0nU/hoagMg/dm/FT/jlFPLjrBoKsvJw3ZZJwlkOZdTw5gufX1wE/qsp
+      5KNHe25tpvTlJRT2TyX7t+aPagp5t+MX0R7Ty97T/R/NeyhYsZxNYXN48b5YTpzNitQUcvHR
+      N2L73mDBzEw+arIATkwhnzQYrApy0xdTaJ9D1vw47DbvB4YzYlQYpUVFNLSBddQzhTwmWlPI
+      uxG/m0Lu+vQDChvboTiLOcVejxmfjiM1VlPIRVPIQR9sNI3vz9OKdJKiFeMoWjGOohXjKFox
+      jqIV4yhaMY6iFeMoWjGOohXjKFoxjqIV4yhaMY6iFeMoWjGOohXjKFoxjqIV4yhaMY6iFeMo
+      WjGOohXjKFoxjqIV4yhaMY6iFeMoWjGOohXjKFoxjqIV4yhaMY6iFeMoWjGOohXjKFoxjh9O
+      IQerpohlL77OjvoW2oN6MmT8XB6cG0cfG5pCLn44hRwXn/89j8ZrH2V1voP8l+bS939yeOsr
+      90M1hVz8bwo5uyn/MoLrpwzHbgObPY7ESb34encVmkIu4A9r2pOnkNdWs6+9P/28pjsHh1zC
+      94e+x9IUcsHXY0bPZgo5EDEgErbV08CAjndqCnm3439TyPue+WG/RcObL3y+Xx5wbAp5O8Ul
+      u095f+3+Gojod+oj8SmmkJ/8Sy4sfhHtMb3sPSEiikEBddR7nRBwtfzEZZdfhs0zhbz+gNd9
+      mkLe7fjfFHKGETPqOz7btIsmC9oat1L4sYuRIwahKeQCfjiFHIKJT7qDzSuWMm9jKwSEMCgh
+      jSdj3G88aAq5aAo5mkJuGr9a04qcDUUrxlG0YhxFK8ZRtGIcRSvGUbRiHEUrxlG0YhxFK8ZR
+      tGIcRSvGUbRiHEUrxlG0YhxFK8ZRtGIcRSvGUbRiHEUrxlG0YhxFK8ZRtGIcRSvGUbRiHEUr
+      xlG0YhxFK8ZRtGIcRSvGUbRiHEUrxlG0YhxFK8ZRtGIcHw2/a2ZPwWpWvbeD+pZ2gnoOYUpq
+      BrNjPKPEm/fwxvIs/vH1EVqD+jB21mMsTIjEBppCLr450lrl+WS+H8it2bk4HPm8NLcvWzNX
+      sPkwgIviNYv5etRz5DocOF6dz+XvLiHPMxdPU8jFJ9HaYu5l/fqHmNg7ELBhj0vixvCdVFQB
+      NHLoYDuXh/d1H1kDh3P1VU1UVNaiKeQCfrOmbaX1aAABNoDeRA2yc6jhABZA2y6+rrQTfVUE
+      aAq54OuBzh5WxSd8/H9TeOgagGBG35NG+WMLSMlz//6K255kybDTPFhTyLsd30fbXMrLK0oY
+      dX8O0TaAWt5/OpsfkteSP86Ora2RouwHyf50FRkTz/x0mkJ+4fNttFYNBc/lUJf4PM+N9ky3
+      rd3OZ9+MIHmc3bOm7U3s6MGs2/I5hyeGdnyOU0whP5lCvrD4LFrrYAmvPL+GuhueYUmS53TW
+      GbmnkO8/AES4b9EU8u7HN9+IOTfz/MIcvrvhGRYnDSTQ+76Ia5lwRR27dh7iqAW0NVJaVkV0
+      /BhCNYVc8NGRtuqfb7OztR3yF5KSf+L2qJTlZCVF8OcnZpKb+V/M2+t5c+GWJ0lLcE8a1xRy
+      0RRyNIXcNH5ynlbk7ClaMY6iFeMoWjGOohXjKFoxjqIV4yhaMY6iFeMoWjGOohXj/D84lMKf
+      +5NIZQAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
