@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "boardgamegeek-370306",
+  "private_key_id": "5094bf07e07e6e61939bc4f4f3eb23c8f0183ffd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCaMBy9MVWOwUHH\nh4JqFhSPBxTPVQw8OVV58x851nfLddCRAjuZNZRGTp43wa92YeC6V0D1TX/r1jPZ\nljYZ6clxiYnfTf1qPMxqBLKCKjFHgrqQ4ZDuhEQU0KBsAS6yWhl+iIK4VhgI6S7/\nzCwIXXpaEWcVNDM+/C0ALxEJb4WebIwrNAYEEkcBRal9riHkAqmCqPlFW0IpkE/k\nfUpOPPl53hRzfVhFjMmu4P/lvRFt+QFXLOLdPemxiOHb4bG/NwUUE8c3LawBCijM\nMaFr9KHnhEzzkGYG8vqLlKTKqq7TZvCL/zgByhTJ0Hxml0VHcpLJj6Pjqw6jj2X7\nRhSqdmaFAgMBAAECggEABRBseThMF5a4Wt3UBjj4buQsJk0kTDwT1yAJmAQ3xgp2\nEbUxkOwmFRMS9kDZyvkXAPfJreTgPTY5WL2qxDoeACkkyp1Mo/cgPaEu3cCWAsPD\n7etCr9rPQ6HAixuU1Y3JBZNlO7m0K2LBROyHS7UKRjgJGzSuNDTjI3zoQdeUW2on\nOUQICheXxLjb8I4DBn2tCsv3WqeAHL7xDOALiwDtYwsrKZ9dXm5X4rsGVcvEyoa9\nIJVvKZ+uSS/TM6G7mQE9QD0POcPb+e6us9UyECKYili6kHPc3Oa+SZ7PV7marCos\n9ruwG4fQF33LsKYOZxXgIRYfTeY3ON2iPV9e1JEBNwKBgQDIdlr7LCucjdaNAvjD\n1CTkODnfAyC8rP8GAc+nXkbwkw8zTtSbOr5TPhOceytDo0jdOrJguXL2BFKrwI2y\n+AB1vf1KduWSiClcgCeohoAFeaHpvyBqsP5p1D2pad0p3jUOETZqWBndrPW2z2tf\nuVrRUKSZBe9Lkwd42NXL5rpdFwKBgQDE58eVJV6BgENxtDe08OuQEnnJ2MDxFxzR\nyVWjDOym9wkhoP+tqjV6p2cKPS9ReSgvIi4Qyo2nR2Sq19egBV/MeD5koP4YbTQ2\nYdDHUm/zrBzpk2mzSpWx6g1tXqsZ0/i5CviDiuUBneibFEISQaVv486/788DsbND\nqAuGcCUywwKBgDgV5R6hHRKQHJcXXcJseGXh1U8v8NjZDgEAQLjzB6YHfxk71QAZ\nT2a614HQdCpYZOqAoaeuOxvZ2cdz+DE6ceZ/YX6UBWcZ8XiP4oikGO1vOn3Lm6Y+\nHvA9EYN0uwwbv3xQFIlsXNBIs/aR0djWYzJs/aBSqMDcQhrtj+OcikfBAoGBAK+w\nz9g4W7bZJ1SRJROB0+3dTmXXzXBQ2xoktxChO5dO3QrwiLIAKW+jZsEwDsR3gm9r\n5AZ/dR1JCn2V0YOqx+u9bo6DR7Wr2uabKJpw6AtYCwQu0CV161OwLwLjcW++PzN8\nonlcuTFUIHQfA0Ue5eqMLbH8243ERNudWYs/DTHZAoGATJAh/XH47VavsxZUq6NL\nWZRjhaR1D/R/OJia+svUvdgr1whRwAH6Ypk57W+LhEVbpz4lrXj0N+k8r7WPqleW\n9eZCEzausegtZCJHQvjl/7e6tGOrTjAM/atvhI13mZYaAm0PIk0o85O8tSG0M4bS\nybgjcwe7xomvssbOXaPz/0g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pythongooglesheets@boardgamegeek-370306.iam.gserviceaccount.com",
+  "client_id": "114463679889465881371",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pythongooglesheets%40boardgamegeek-370306.iam.gserviceaccount.com"
+}
